@@ -3,6 +3,19 @@ content-type: application/json
 
 {
     "name": "Joseph Climber",
-    "username": "josephclimber13",
+    "username": "josephclimber123",
     "password": "123456"
+}
+
+###
+POST http://localhost:8080/tasks/
+content-type: application/json
+
+{
+    "title": "Terminar curso de scrum",
+    "description": "Tarefa para finalizar os módeulos 2 e 3 do curso de SCRUM",
+  "startAt": "2023-10-11T15:26:40",
+  "endAt": "2023-10-12T15:30:00",
+  "priority": "High",
+  "idUser": "87115a67-a1ce-4660-90b1-bff2a87de5d1"
 }
