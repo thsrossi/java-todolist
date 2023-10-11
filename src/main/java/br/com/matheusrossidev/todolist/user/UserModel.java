@@ -1,5 +1,6 @@
 package br.com.matheusrossidev.todolist.user;
 
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 import org.hibernate.annotations.CreationTimestamp;
